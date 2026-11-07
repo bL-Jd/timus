@@ -1,0 +1,252 @@
+* text=auto
+
+.gitattributes       export-ignore
+.gitignore           export-ignore
+.gitkeep             export-ignore
+
+# Shell files
+*.bash               text       eol=lf
+*.fish               text       eol=lf
+*.sh                 text       eol=lf
+*.zsh                text       eol=lf
+*.bat                text       eol=crlf
+*.cmd                text       eol=crlf
+*.ps1                text       eol=crlf
+*.ps1x               text       eol=crlf
+*.psm1               text       eol=crlf
+*.psd1               text       eol=crlf
+*.ps1xml             text       eol=crlf
+*.pssc               text       eol=crlf
+*.psrc               text       eol=crlf
+*.cdxml              text       eol=crlf
+
+# Web files
+*.htm                text       diff=html
+*.html               text       diff=html
+*.css                text       diff=css
+*.scss               text       diff=css
+*.sass               text
+*.js                 text
+*.jsx                text
+*.ts                 text
+*.tsx                text
+*.php                text       diff=php
+*.sql                linguist-detectable=true
+*.sql                linguist-language=sql
+
+# Ada files
+*.ada                text       diff=ada
+*.adb                text       diff=ada
+*.ads                text       diff=ada
+
+# Asm files
+*.asm                text
+*.S                  text
+*.inc                text
+
+# C files
+*.c                  text
+*.h                  text
+
+# C++ files
+*.cc                 text       diff=cpp
+*.cxx                text       diff=cpp
+*.cpp                text       diff=cpp
+*.c++                text       diff=cpp
+*.hh                 text       diff=cpp
+*.hxx                text       diff=cpp
+*.hpp                text       diff=cpp
+*.h++                text       diff=cpp
+
+# CSharp files
+*.cs                 text       diff=csharp
+*.csx                text       diff=csharp
+
+# GOlang files
+*.go                 text       diff=golang
+
+# Java files
+*.java               text       diff=java
+*.kt                 text       diff=kotlin
+*.groovy             text       diff=java
+*.scala              text       diff=java
+*.gradle             text       diff=java
+*.gradle.kts         text       diff=java
+*.class              binary
+
+# Lua files
+*.lua                text
+
+# Objective-C, Objective-C++ files
+*.m                  text       diff=objc
+*.mm                 text       diff=objc
+
+# Perl files
+*.pl                 text       diff=perl
+*.pm                 text       diff=perl
+*.ph                 text       diff=perl
+
+# Python files
+*.py                 text       diff=python
+*.pyi                text       diff=python
+*.pyc                binary
+*.pyd                binary
+*.pyo                binary
+*.pyz                binary
+
+# Rust files
+*.rs                 text       diff=rust
+*.rlib               binary
+Cargo.*              text
+
+# Swift files
+*.swift              text
+
+# Archives files
+*.zip                binary
+*.7z                 binary
+*.s7z                binary
+*.tar                binary
+*.tgz                binary
+*.bz2                binary
+*.gz                 binary
+*.lz                 binary
+*.ar                 binary
+*.apk                binary
+*.jar                binary
+*.war                binary
+*.rar                binary
+*.ear                binary
+*.jks
+
+# Compiled Object files
+*.slo
+*.lo 
+*.o  
+*.obj
+
+# Precompiled Headers
+*.gch                binary
+*.pch                binary
+
+# Compiled Dynamic libraries
+*.so                 binary
+*.dylib              binary
+*.dll                binary
+
+# Compiled Static libraries
+*.lai                binary
+*.la                 binary
+*.a                  binary
+*.lib                binary
+
+# Executables
+*.exe                binary
+*.out                binary
+*.app                binary
+
+# Images
+*.ico                binary
+*.png                binary
+*.jpg                binary
+*.jpeg               binary
+*.gif                binary
+*.bmp                binary
+*.tif                binary
+*.tiff               binary
+*.webp               binary
+*.svg                binary
+
+# Audio
+*.aif                binary
+*.aiff               binary
+*.mod                binary
+*.mp3                binary
+*.ogg                binary
+*.s3m                binary
+*.wav                binary
+*.xm                 binary
+
+# Video
+*.asf                binary
+*.avi                binary
+*.flv                binary
+*.mov                binary
+*.mp4                binary
+*.mpeg               binary
+*.mpg                binary
+*.ogv                binary
+*.wmv                binary
+
+# Fonts
+*.ttf                binary
+*.eot                binary
+*.otf                binary
+*.woff               binary
+*.woff2              binary
+
+# Other files
+*.doc	             diff=astextplain
+*.docx               diff=astextplain
+*.dot                diff=astextplain
+*.pdf                diff=astextplain
+*.rtf	             diff=astextplain
+
+# Other Binary files
+*.iso                binary
+*.djvu               binary
+*.pdb                binary
+*.bin                binary
+*.dat                binary
+
+# Other Text files
+*.markdown           text       diff=markdown
+*.md                 text       diff=markdown
+*.mdwn               text       diff=markdown
+*.mdown              text       diff=markdown
+*.mkd                text       diff=markdown
+*.mkdn               text       diff=markdown
+*.mdtxt              text
+*.mdtext             text
+*.txt                text
+*.*ignore            text
+
+*.json               text
+*.toml               text
+*.xml                text
+*.yaml               text
+*.yml                text
+
+*.tmp                text
+*.log                text
+*.lock               text
+
+Makefile             text
+Dockerfile           text
+Doxyfile             text
+
+*.cnf                text
+*.conf               text
+*.*config            text
+
+# Other IDE files
+*.sln                text       eol=crlf
+*.props              text       eol=crlf
+*.csproj             text       eol=crlf
+*.vbproj             text       eol=crlf
+*.vcxproj            text       eol=crlf
+*.vcxproj.filters    text       eol=crlf
+*.vcproj             text       eol=crlf
+*.dbproj             text       eol=crlf
+*.fsproj             text       eol=crlf
+*.lsproj             text       eol=crlf
+*.wixproj            text       eol=crlf
+*.modelproj          text       eol=crlf
+*.sqlproj            text       eol=crlf
+*.wwaproj            text       eol=crlf
+*.xproj              text       eol=crlf
+*.props              text       eol=crlf
+*.filters            text       eol=crlf
+*.vcxitems           text       eol=crlf
+# text eol=crlf
+*.pbxproj            binary     -merge=union

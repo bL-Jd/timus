@@ -1,0 +1,131 @@
+# Other
+
+# Java files
+**.class
+**.apk
+**.jar
+**.war
+**.rar
+**.ear
+**.jks
+
+# Python files
+**.pyc
+**.pyd
+**.pyo
+**.pyz
+
+# Rust files
+**.rlib
+
+# Archives files
+**.zip
+**.7z
+**.s7z
+**.tar
+**.tgz
+**.bz2
+**.gz
+
+# Compiled Object files
+**.slo
+**.lo
+**.o
+**.obj
+
+# Precompiled Headers
+**.gch
+**.pch
+
+# Compiled Dynamic libraries
+**.so 
+**.dylib
+**.dll
+
+# Compiled Static libraries
+**.lai
+**.la
+**.a
+**.lib
+
+# Executable files
+**.exe
+**.out
+**.app
+
+# Images
+#**.ico
+#**.png
+#**.jpg
+#**.jpeg
+#**.gif
+#**.bmp
+#**.tif
+#**.tiff
+#**.webp
+#**.svg
+
+# Audio
+#**.aif
+#**.aiff
+#**.mod
+#**.mp3
+#**.ogg
+#**.s3m
+#**.wav
+#**.xm 
+
+# Video
+#**.asf
+#**.avi
+#**.flv
+#**.mov
+#**.mp4
+#**.mpeg
+#**.mpg
+#**.ogv
+#**.wmv
+
+# Fonts
+#**.ttf
+#**.eot
+#**.otf
+#**.woff
+#**.woff2
+
+# Other Binary files
+**.iso
+**.djvu
+**.pdf
+**.pdb
+**.bin
+**.dat
+
+# Other files
+**.tmp
+**.temp
+**.log
+
+# Other IDE files
+**.vscode/*
+**.idea/*
+**.sln
+**.props
+**.csproj
+**.vbproj
+**.vcxproj
+**.vcxproj.filters
+**.vcxproj.user
+**.vcproj
+**.dbproj
+**.fsproj
+**.lsproj
+**.wixproj
+**.modelproj
+**.sqlproj
+**.wwaproj
+**.xproj
+**.props
+**.filters
+**.vcxitems
+**.pbxproj
