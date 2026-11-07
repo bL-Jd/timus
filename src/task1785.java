@@ -12,7 +12,7 @@
 40
 
 результат
-several 
+several
 lots
 */
 
