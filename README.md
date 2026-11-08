@@ -9,4 +9,8 @@
 ### Lab2_Java/src/lr2 – HelloEclipse, Task1..Task5
 ### Lab2_Java/src/timus – Task1000, Task1001, Task1068
 
+# Лабораторная работа № 3
+### Lab3_Java/src/lr3 – задания 1-10
+### Lab3_Java/src/timus – Task1001, Task1068
+
 
