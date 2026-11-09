@@ -24,3 +24,6 @@
 # Лабораторная работа № 6
 ### [CharText, Counter, Stats и программы Task1-Task10](src/Lab6_Java/lr6)
 ### [Task1409, Task1639](src/Lab6_Java/timus)
+
+# Лабораторная работа № 7
+### [Task1-Task5, Task1264, Task1785](src/Lab7_Java)
