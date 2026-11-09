@@ -108,6 +108,7 @@
 **.xml
 
 # Other IDE files
+out/*
 **.vscode/*
 **.idea/*
 **.iml

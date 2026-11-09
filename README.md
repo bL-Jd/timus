@@ -10,7 +10,7 @@
 ### [Task1000, Task1001, Task1068](src/Lab2_Java/timus)
 
 # Лабораторная работа № 3
-### [задания 1-10](src/Lab3_Java/lr3)
+### [задания 1-10](src/Lab3_Java/lr3)   
 ### [Task1319, Task1585](src/Lab3_Java/timus)
 
 # Лабораторная работа № 4
@@ -27,3 +27,6 @@
 
 # Лабораторная работа № 7
 ### [Task1-Task5, Task1264, Task1785](src/Lab7_Java)
+
+# Лабораторная работа № 8
+### [Example1-Example10, Task2, Task3, Task2001, Task2012](src/Lab8_Java)
